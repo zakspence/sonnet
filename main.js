@@ -10,7 +10,7 @@ function tweakSonnet() {
 	console.log('position of \'orphans\': ', orphansIndex);
 
 	sonnet = sonnet.replace(/winter/gi, 'yuletide');
-	sonnet = sonnet.replace(/the/gi, 'a large');
+	sonnet = sonnet.replace(/the /gi, 'a large ');
 	console.log(sonnet);
 
 	target.innerHTML = sonnet;
